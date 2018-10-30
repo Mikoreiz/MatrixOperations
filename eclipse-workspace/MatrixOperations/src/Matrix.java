@@ -3,9 +3,9 @@ public class Matrix {
 
 	private int matrix[][];
 	
-	public Matrix(int Nrow, int Ncolumn) {
+	public Matrix(int[][] nMatrix) {
 		// TODO Auto-generated constructor stub
-		matrix = new int[Nrow][Ncolumn];
+		matrix = nMatrix;
 	}
 	public static boolean isSquareMatrix(Matrix mat) {
 		// Determines whether matrix is a square matrix
